@@ -14,6 +14,7 @@ const props = defineProps<{
 }>();
 
 const loading = ref(true);
+
 const currentRoute = useRoute();
 const frameSrc = ref<string>("");
 const frameRef = ref<HTMLElement | null>(null);
